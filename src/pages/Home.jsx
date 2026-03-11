@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router";
 import Pagination from "../components/Pagination";
+import backgroundVideo from "../assets/background/video1.mp4";
 
 const Home = () => {
     const navigate = useNavigate();
@@ -43,13 +44,22 @@ const Home = () => {
         <div className="bg-light min-h-screen">
             {/* Hero Section*/}
             <section
-                className="h-[90vh] bg-fixed bg-center bg-cover flex items-center justify-center text-white"
-                style={{
-                    backgroundImage:
-                        "url('https://images.unsplash.com/photo-1506929562872-bb421503ef21')",
-                }}
+                className="relative h-[90vh] flex items-center justify-center text-white overflow-hidden"
             >
-                <div className="bg-black/50 p-10 rounded-xl text-center max-w-xl">
+                <video
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    preload="metadata"
+                    className="absolute top-0 left-0 w-full h-full object-cover z-0"
+                >
+                    <source
+                        src={backgroundVideo}
+                        type="video/mp4"
+                    />
+                </video>
+                <div className="relative z-10 bg-black/50 p-10 rounded-xl text-center max-w-xl">
                     <h1 className="text-4xl font-bold mb-4">
                         Find your perfect stay with TripNest
                     </h1>
