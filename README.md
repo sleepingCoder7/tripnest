@@ -1,16 +1,131 @@
-# React + Vite
+# TripNest Travel 🌍✈️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TripNest Travel is a travel booking web application that allows users to browse hotels and explore travel options through a clean and responsive interface.
 
-Currently, two official plugins are available:
+This project was built as a frontend learning project using **React** and deployed on **Netlify**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Live Demo:  
+[https://tripnest-travel.netlify.app/](https://tripnest-travel.netlify.app/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Browse available hotels
+- View hotel cards with pricing and details
+- Responsive UI for different screen sizes
+- Client-side routing using React Router
+- Component based architecture
+- Unit testing using React Testing Library
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+**Frontend**
+- React
+- JavaScript (ES6)
+- HTML5
+- CSS3
+
+**Libraries**
+- React Router
+- React Testing Library
+- Jest / Vitest
+
+**Deployment**
+- Netlify
+
+---
+
+## Project Structure
+
+```text
+tripnest-travel
+│
+├── public
+│   └── index.html
+│
+├── src
+│   ├── components
+│   │   └── HotelCard.jsx
+│   │
+│   ├── pages
+│   │   └── Hotels.jsx
+│   │
+│   ├── __tests__
+│   │   └── HotelCard.test.jsx
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/tripnest-travel.git
+```
+
+Go into the project directory:
+
+```bash
+cd tripnest-travel
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Running Tests
+
+```bash
+npm run test
+```
+
+---
+
+## Deployment
+
+The project is deployed using **Netlify**.
+
+---
+
+## Future Improvements
+
+- Hotel search functionality
+- Booking system
+- User authentication
+- Backend integration (Spring Boot / Node.js)
+- Payment gateway integration
+
+---
+
+## Author
+
+**Durga Prasad**
+
+GitHub:  
+[https://github.com/sleepingCoder7](https://github.com/sleepingCoder7)
+
+---
+
+## License
+
+This project is licensed under the MIT License.
