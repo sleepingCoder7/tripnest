@@ -48,21 +48,54 @@ This project was built as a frontend learning project using **React** and deploy
 tripnest-travel
 │
 ├── public
-│   └── index.html
+│   └── _redirects
 │
 ├── src
 │   ├── components
+│   │   ├── __tests__
+|   |   |   └── HotelCard.test.jsx
+|   |   |   └── Pagination.test.jsx
 │   │   └── HotelCard.jsx
+│   │   └── Navbar.jsx
+│   │   └── Footer.jsx
+│   │   └── Pagination.jsx
 │   │
 │   ├── pages
+│   │   ├── __tests__
+|   |   |   └── Home.test.jsx
+│   │   └── Home.jsx
 │   │   └── Hotels.jsx
+│   │   └── HotelDetail.jsx
+│   │   └── About.jsx
+│   │   └── Wishlist.jsx
 │   │
-│   ├── __tests__
-│   │   └── HotelCard.test.jsx
+│   ├── assets
+│   │   ├── background
+│   │   |   └── video1.mp4
+│   │   └── logo
+│   │       └── tripnest-logo.png
 │   │
+│   ├── utils
+│   │   └── countries.json
+|   |
+│   ├── routes
+│   │   └── AppRoutes.jsx
+|   |
+│   ├── redux
+│   │   ├── slices
+│   │   |   └── hotelSlice.js
+│   │   |   └── wishlistSlice.js
+│   │   └── store.js
+|   |
 │   ├── App.jsx
 │   └── main.jsx
+│   └── index.css
+│   └── App.css
+│   └── setupTests.js
 │
+├── index.html
+├── vite.config.js
+├── .env
 ├── package.json
 └── README.md
 ```
@@ -74,7 +107,7 @@ tripnest-travel
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/tripnest-travel.git
+git clone https://github.com/sleepingCoder7/tripnest-travel.git
 ```
 
 Go into the project directory:
