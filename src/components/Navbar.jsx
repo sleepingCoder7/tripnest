@@ -12,10 +12,10 @@ const Navbar = () => {
             <img src={logo} alt="TripNest" className='h-15 w-auto'/>
         </Link>
         <nav className='flex gap-6 items-center text-primary font-medium'>
-            <Link to="/" className='hover:text-secondary transition-colors duration-300'>Home</Link>
-            <Link to="/hotels" className='hover:text-secondary transition-colors duration-300'>Hotels</Link>
-            <Link to="/about" className='hover:text-secondary transition-colors duration-300'>About</Link>
-            <Link to="/wishlist" className='hover:text-secondary transition-colors duration-300 relative'>
+            <Link to="/" className='hover:text-secondary transition-colors duration-300' onClick={() => window.scrollTo(0, 0)}>Home</Link>
+            <Link to="/hotels" className='hover:text-secondary transition-colors duration-300' onClick={() => window.scrollTo(0, 0)}>Hotels</Link>
+            <Link to="/about" className='hover:text-secondary transition-colors duration-300' onClick={() => window.scrollTo(0, 0)}>About</Link>
+            <Link to="/wishlist" className='hover:text-secondary transition-colors duration-300 relative' onClick={() => window.scrollTo(0, 0)}>
                 Wishlist
                 {wishlistCount > 0 && (
                     <span className='absolute -top-2 -right-4 bg-accent text-white text-xs px-2 py-0.5 rounded-full'>
