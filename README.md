@@ -53,8 +53,8 @@ tripnest-travel
 ├── src
 │   ├── components
 │   │   ├── __tests__
-|   |   |   └── HotelCard.test.jsx
-|   |   |   └── Pagination.test.jsx
+│   │   │    └── HotelCard.test.jsx
+│   │   │    └── Pagination.test.jsx
 │   │   └── HotelCard.jsx
 │   │   └── Navbar.jsx
 │   │   └── Footer.jsx
@@ -62,7 +62,7 @@ tripnest-travel
 │   │
 │   ├── pages
 │   │   ├── __tests__
-|   |   |   └── Home.test.jsx
+│   │   │    └── Home.test.jsx
 │   │   └── Home.jsx
 │   │   └── Hotels.jsx
 │   │   └── HotelDetail.jsx
@@ -71,22 +71,22 @@ tripnest-travel
 │   │
 │   ├── assets
 │   │   ├── background
-│   │   |   └── video1.mp4
+│   │   │    └── video1.mp4
 │   │   └── logo
 │   │       └── tripnest-logo.png
 │   │
 │   ├── utils
 │   │   └── countries.json
-|   |
+│   │
 │   ├── routes
 │   │   └── AppRoutes.jsx
-|   |
+│   │
 │   ├── redux
 │   │   ├── slices
-│   │   |   └── hotelSlice.js
-│   │   |   └── wishlistSlice.js
+│   │   │   └── hotelSlice.js
+│   │   │   └── wishlistSlice.js
 │   │   └── store.js
-|   |
+│   │
 │   ├── App.jsx
 │   └── main.jsx
 │   └── index.css
