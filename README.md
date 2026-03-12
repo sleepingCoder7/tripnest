@@ -84,7 +84,6 @@ tripnest-travel
 │   │
 │   ├── redux
 │   │   ├── slices
-│   │   │   └── hotelSlice.js
 │   │   │   └── wishlistSlice.js
 │   │   └── store.js
 │   │
