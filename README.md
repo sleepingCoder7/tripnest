@@ -1,3 +1,5 @@
+<div align="center">
+
 # TripNest Travel 🌍✈️
 
 TripNest Travel is a travel booking web application that allows users to browse hotels and explore travel options through a clean and responsive interface.
@@ -6,6 +8,8 @@ This project was built as a frontend learning project using **React** and deploy
 
 🔗 Live Demo:  
 [https://tripnest-travel.netlify.app/](https://tripnest-travel.netlify.app/)
+
+</div>
 
 ---
 
