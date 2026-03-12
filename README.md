@@ -30,12 +30,13 @@ This project was built as a frontend learning project using **React** and deploy
 - React
 - JavaScript (ES6)
 - HTML5
-- CSS3
+- Tailwind CSS
 
 **Libraries**
 - React Router
+- Redux
 - React Testing Library
-- Jest / Vitest
+- Vitest
 
 **Deployment**
 - Netlify
@@ -146,7 +147,6 @@ The project is deployed using **Netlify**.
 
 ## Future Improvements
 
-- Hotel search functionality
 - Booking system
 - User authentication
 - Backend integration (Spring Boot / Node.js)
