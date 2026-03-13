@@ -144,6 +144,20 @@ The project is deployed using **Netlify**.
 
 ---
 
+## Screenshots
+
+![Home Page](./screenshots/home.png)
+
+![Hotels Page](./screenshots/hotels.png)
+
+![Hotel Detail Page](./screenshots/hotel-detail.png)
+
+![Wishlist Page](./screenshots/wishlist.png)
+
+![About Page](./screenshots/about.png)
+
+---
+
 ## Future Improvements
 
 - Booking system
